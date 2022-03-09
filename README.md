@@ -10,7 +10,7 @@ cse210-03
 │   README.md
 │   __main__.py
 │
-└───cycle
+└───game
     │   constants.py
     └───game
         └───casting
