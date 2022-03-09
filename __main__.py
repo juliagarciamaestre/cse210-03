@@ -1,19 +1,19 @@
-import constants
+import cycle.constants
 
-from game.casting.cast import Cast
-from game.casting.food import Food
-from game.casting.score import Score
-from game.casting.snake import Snake
-from game.scripting.script import Script
-from game.scripting.control_actors_action import ControlActorsAction
-from game.scripting.move_actors_action import MoveActorsAction
-from game.scripting.handle_collisions_action import HandleCollisionsAction
-from game.scripting.draw_actors_action import DrawActorsAction
-from game.directing.director import Director
-from game.services.keyboard_service import KeyboardService
-from game.services.video_service import VideoService
-from game.shared.color import Color
-from game.shared.point import Point
+from cycle.casting.cast import Cast
+from cycle.casting.food import Food
+from cycle.casting.score import Score
+from cycle.casting.snake import Snake
+from cycle.scripting.script import Script
+from cycle.scripting.control_actors_action import ControlActorsAction
+from cycle.scripting.move_actors_action import MoveActorsAction
+from cycle.scripting.handle_collisions_action import HandleCollisionsAction
+from cycle.scripting.draw_actors_action import DrawActorsAction
+from cycle.directing.director import Director
+from cycle.services.keyboard_service import KeyboardService
+from cycle.services.video_service import VideoService
+from cycle.shared.color import Color
+from cycle.shared.point import Point
 
 
 def main():
