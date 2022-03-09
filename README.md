@@ -14,25 +14,25 @@ cse210-03
     │   constants.py
     └───game
         └───casting
-            │   actor.py
-            │   cast.py
-            │   score.py
-            │   snake.py
+        |      actor.py
+        │      cast.py
+        │      score.py
+        │      snake.py
         └───directing
-            │   director.py
+        │      director.py
         └───scripting
-            │   action.py
-            │   control_actors_action.py
-            │   draw_actors_action.py
-            │   handle_collisions_action.py
-            │   move_actors_action.py
-            │   script.py
+        │      action.py
+        │      control_actors_action.py
+        │      draw_actors_action.py
+        │      handle_collisions_action.py
+        │      move_actors_action.py
+        │      script.py
         └───services
-            │   keyboard_service.py
-            │   video_service.py
+        │      keyboard_service.py
+        │      video_service.py
         └───shared
-            │   color.py
-            │   point.py
+        │      color.py
+        │      point.py
 ```
 
 ## **Required software**
