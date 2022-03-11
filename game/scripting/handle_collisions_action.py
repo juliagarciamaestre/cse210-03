@@ -2,6 +2,8 @@ import constants
 from game.casting.actor import Actor
 from game.scripting.action import Action
 from game.shared.point import Point
+from game.scripting.control_growing import ControlGrowing
+from game.services.keyboard_service import KeyboardService
 
 class HandleCollisionsAction(Action):
     """
@@ -41,11 +43,9 @@ class HandleCollisionsAction(Action):
         snake = cast.get_first_actor("snakes")
         head = snake.get_head()
 
-        if head.get_position().equals(food.get_position()):
-            points = food.get_points()
-            snake.grow_tail(points)
-            score.add_points(points)
-            food.reset()
+        keyboard_service = KeyboardService()
+        
+        ControlGrowing(keyboard_service)
     
     def _handle_segment_collision(self, cast):
         """Sets the game over flag if the snake collides with one of its segments.
